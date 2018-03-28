@@ -17,7 +17,7 @@ Then(/^search relelated tado the data will be displayed$/) do
   p x.include?("Abouts")
 
   expect(x).should include"Abouts"
-  #sleep 4
+  sleep 4
 end
 
 Then(/^verify the user is able to accesseses data from yml file$/) do
