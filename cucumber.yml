@@ -1,0 +1,2 @@
+<%time1 = Time.new.strftime('%Y-%m-%d-%H-%M')+"qwert.html"%>
+default: --no-source --color --format html --out=<%=time1%> --tag @testtag --tag ~@actual
